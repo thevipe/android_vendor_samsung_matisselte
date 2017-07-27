@@ -1,5 +1,4 @@
-# Copyright (C) 2014-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,6 +20,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisselte/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/matisselte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/matisselte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/matisselte/proprietary/etc/Diag_audio.cfg:system/etc/Diag_audio.cfg \
+    vendor/samsung/matisselte/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
+    vendor/samsung/matisselte/proprietary/etc/Diag_gps.cfg:system/etc/Diag_gps.cfg \
+    vendor/samsung/matisselte/proprietary/etc/Diag_volte.cfg:system/etc/Diag_volte.cfg \
+    vendor/samsung/matisselte/proprietary/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg \
+    vendor/samsung/matisselte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    vendor/samsung/matisselte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/matisselte/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/matisselte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/matisselte/proprietary/lib/libril.so:system/lib/libril.so \
